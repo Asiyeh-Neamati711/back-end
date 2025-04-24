@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home</title>
+</head>
+<body>
+  <h1>Image Upload App</h1>
+  <a href="/upload">Upload an Image</a>
+
+  <% if (typeof image !== 'undefined') { %>
+    <h2>Uploaded Image:</h2>
+    <img src="<%= image %>" width="300" />
+  <% } %>
+</body>
+</html>
